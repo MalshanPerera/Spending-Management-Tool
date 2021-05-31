@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad10_2" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExpenseTableViewCell" rowHeight="70" id="wLU-6A-xAy" customClass="ExpenseTableViewCell" customModule="Spending_Management_Tool" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="800" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wLU-6A-xAy" id="ijC-LF-NLw">
+                <rect key="frame" x="0.0" y="0.0" width="800" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mortgage" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDV-gX-y26">
+                        <rect key="frame" x="20" y="13" width="100" height="54"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="yW2-D6-IqQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$2040" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wsy-bz-cPF">
+                        <rect key="frame" x="122" y="13" width="100" height="54"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="qsR-7K-VCd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Monthly" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omo-SY-jsX">
+                        <rect key="frame" x="227" y="13" width="100" height="54"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="tcJ-Tb-VJM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="note/due dasdd dsda" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxK-gb-jY2">
+                        <rect key="frame" x="333" y="13" width="150" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="0Qg-u9-9eQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="calendar.badge.clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fsM-Q6-RqO">
+                        <rect key="frame" x="754" y="27" width="26" height="26"/>
+                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24.5" id="amK-7x-cPP"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tVp-8I-MdI" customClass="ProgressBar" customModule="Spending_Management_Tool" customModuleProvider="target">
+                        <rect key="frame" x="491" y="27" width="250" height="25"/>
+                        <color key="backgroundColor" red="0.95377810517867445" green="0.9261738065121139" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Wsy-bz-cPF" firstAttribute="firstBaseline" secondItem="omo-SY-jsX" secondAttribute="firstBaseline" id="78o-Kj-w94"/>
+                    <constraint firstItem="omo-SY-jsX" firstAttribute="leading" secondItem="Wsy-bz-cPF" secondAttribute="trailing" constant="5" id="7Ca-h5-sMA"/>
+                    <constraint firstItem="rDV-gX-y26" firstAttribute="baseline" secondItem="Wsy-bz-cPF" secondAttribute="baseline" id="A5B-r8-02s"/>
+                    <constraint firstItem="tVp-8I-MdI" firstAttribute="leading" secondItem="dxK-gb-jY2" secondAttribute="trailing" constant="8" symbolic="YES" id="CJV-lY-457"/>
+                    <constraint firstItem="Wsy-bz-cPF" firstAttribute="leading" secondItem="rDV-gX-y26" secondAttribute="trailing" constant="2" id="H2p-4A-FhV"/>
+                    <constraint firstItem="rDV-gX-y26" firstAttribute="top" secondItem="ijC-LF-NLw" secondAttribute="topMargin" constant="2" id="OoN-hf-V2H"/>
+                    <constraint firstItem="tVp-8I-MdI" firstAttribute="top" secondItem="ijC-LF-NLw" secondAttribute="topMargin" constant="16" id="Rr9-0K-bNv"/>
+                    <constraint firstItem="Wsy-bz-cPF" firstAttribute="baseline" secondItem="omo-SY-jsX" secondAttribute="baseline" id="SkN-de-2uy"/>
+                    <constraint firstItem="rDV-gX-y26" firstAttribute="centerY" secondItem="ijC-LF-NLw" secondAttribute="centerY" id="b4M-uV-F1a"/>
+                    <constraint firstItem="omo-SY-jsX" firstAttribute="firstBaseline" secondItem="dxK-gb-jY2" secondAttribute="firstBaseline" id="gcJ-Oz-YZ3"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fsM-Q6-RqO" secondAttribute="trailing" constant="1.5" id="jIe-kH-YyA"/>
+                    <constraint firstItem="omo-SY-jsX" firstAttribute="centerY" secondItem="dxK-gb-jY2" secondAttribute="centerY" id="jSX-eo-Sc0"/>
+                    <constraint firstItem="rDV-gX-y26" firstAttribute="firstBaseline" secondItem="Wsy-bz-cPF" secondAttribute="firstBaseline" id="jua-Wn-eBV"/>
+                    <constraint firstItem="dxK-gb-jY2" firstAttribute="leading" secondItem="omo-SY-jsX" secondAttribute="trailing" constant="6" id="jzo-4T-oKo"/>
+                    <constraint firstItem="rDV-gX-y26" firstAttribute="leading" secondItem="ijC-LF-NLw" secondAttribute="leadingMargin" id="pj9-ay-f4N"/>
+                    <constraint firstItem="omo-SY-jsX" firstAttribute="centerY" secondItem="tVp-8I-MdI" secondAttribute="centerY" id="qTb-jx-dRm"/>
+                    <constraint firstItem="fsM-Q6-RqO" firstAttribute="top" secondItem="ijC-LF-NLw" secondAttribute="topMargin" constant="14.5" id="rPf-GT-isv"/>
+                    <constraint firstItem="fsM-Q6-RqO" firstAttribute="leading" secondItem="tVp-8I-MdI" secondAttribute="trailing" constant="13" id="xBx-Z7-OEu"/>
+                    <constraint firstItem="tVp-8I-MdI" firstAttribute="centerY" secondItem="fsM-Q6-RqO" secondAttribute="centerY" id="xcH-yH-XQ4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Iy6-GR-JRz"/>
+            <connections>
+                <outlet property="addToCalenderImage" destination="fsM-Q6-RqO" id="43L-gv-rSV"/>
+                <outlet property="budgetLabel" destination="Wsy-bz-cPF" id="suu-LS-ZiM"/>
+                <outlet property="nameLabel" destination="rDV-gX-y26" id="x03-WU-b5E"/>
+                <outlet property="noteLable" destination="dxK-gb-jY2" id="rmJ-bS-2Ej"/>
+                <outlet property="occurenceLabel" destination="omo-SY-jsX" id="gh2-JU-Ic1"/>
+                <outlet property="progressBar" destination="tVp-8I-MdI" id="zrg-pZ-DYz"/>
+            </connections>
+            <point key="canvasLocation" x="468" y="87"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calendar.badge.clock" catalog="system" width="128" height="108"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

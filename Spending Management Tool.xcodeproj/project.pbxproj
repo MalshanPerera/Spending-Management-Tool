@@ -9,23 +9,45 @@
 /* Begin PBXBuildFile section */
 		DC44AC73264B0AD8001A3FD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44AC72264B0AD8001A3FD4 /* AppDelegate.swift */; };
 		DC44AC75264B0AD8001A3FD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44AC74264B0AD8001A3FD4 /* SceneDelegate.swift */; };
-		DC44AC77264B0AD8001A3FD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44AC76264B0AD8001A3FD4 /* ViewController.swift */; };
 		DC44AC7A264B0AD8001A3FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC44AC78264B0AD8001A3FD4 /* Main.storyboard */; };
 		DC44AC7D264B0AD8001A3FD4 /* Spending_Management_Tool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC44AC7B264B0AD8001A3FD4 /* Spending_Management_Tool.xcdatamodeld */; };
 		DC44AC7F264B0ADB001A3FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC44AC7E264B0ADB001A3FD4 /* Assets.xcassets */; };
 		DC44AC82264B0ADB001A3FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC44AC80264B0ADB001A3FD4 /* LaunchScreen.storyboard */; };
+		DC44AC93264C2CA5001A3FD4 /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44AC92264C2CA5001A3FD4 /* AddCategoryViewController.swift */; };
+		DC44AC97264CC075001A3FD4 /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44AC96264CC075001A3FD4 /* CategoryListViewController.swift */; };
+		DC44AC9B264CC08C001A3FD4 /* CategoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44AC9A264CC08C001A3FD4 /* CategoryDetailsViewController.swift */; };
+		DC44AC9F264CC96D001A3FD4 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44AC9E264CC96D001A3FD4 /* enums.swift */; };
+		DC44ACAB264CDAC8001A3FD4 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44ACA9264CDAC8001A3FD4 /* CustomTableViewCell.swift */; };
+		DC44ACAC264CDAC8001A3FD4 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC44ACAA264CDAC8001A3FD4 /* CustomTableViewCell.xib */; };
+		DC44ACB1264DC417001A3FD4 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44ACB0264DC417001A3FD4 /* AddExpenseViewController.swift */; };
+		DC44ACB4264F0A6D001A3FD4 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44ACB3264F0A6D001A3FD4 /* PieChart.swift */; };
+		DC44ACB8264F2104001A3FD4 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44ACB6264F2104001A3FD4 /* ExpenseTableViewCell.swift */; };
+		DC44ACB9264F2104001A3FD4 /* ExpenseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC44ACB7264F2104001A3FD4 /* ExpenseTableViewCell.xib */; };
+		DC76B5E7265479C20070B8BF /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC76B5E6265479C20070B8BF /* ProgressBar.swift */; };
+		DC76B5EA26554A6B0070B8BF /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC76B5E926554A6B0070B8BF /* TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC44AC6F264B0AD8001A3FD4 /* Spending Management Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spending Management Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC44AC72264B0AD8001A3FD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC44AC74264B0AD8001A3FD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC44AC76264B0AD8001A3FD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC44AC79264B0AD8001A3FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC44AC7C264B0AD8001A3FD4 /* Spending_Management_Tool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spending_Management_Tool.xcdatamodel; sourceTree = "<group>"; };
 		DC44AC7E264B0ADB001A3FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC44AC81264B0ADB001A3FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC44AC83264B0ADB001A3FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC44AC92264C2CA5001A3FD4 /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		DC44AC96264CC075001A3FD4 /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		DC44AC9A264CC08C001A3FD4 /* CategoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsViewController.swift; sourceTree = "<group>"; };
+		DC44AC9E264CC96D001A3FD4 /* enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
+		DC44ACA9264CDAC8001A3FD4 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = "Spending Management Tool/View/CustomTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		DC44ACAA264CDAC8001A3FD4 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomTableViewCell.xib; path = "Spending Management Tool/View/CustomTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		DC44ACB0264DC417001A3FD4 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		DC44ACB3264F0A6D001A3FD4 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		DC44ACB6264F2104001A3FD4 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		DC44ACB7264F2104001A3FD4 /* ExpenseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseTableViewCell.xib; sourceTree = "<group>"; };
+		DC76B5E6265479C20070B8BF /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		DC76B5E926554A6B0070B8BF /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +80,59 @@
 		DC44AC71264B0AD8001A3FD4 /* Spending Management Tool */ = {
 			isa = PBXGroup;
 			children = (
+				DC44AC9D264CC959001A3FD4 /* Helper */,
+				DC44AC8E264B0D1D001A3FD4 /* Controller */,
+				DC44AC8D264B0D11001A3FD4 /* View */,
+				DC44AC8B264B0D01001A3FD4 /* Model */,
 				DC44AC72264B0AD8001A3FD4 /* AppDelegate.swift */,
 				DC44AC74264B0AD8001A3FD4 /* SceneDelegate.swift */,
-				DC44AC76264B0AD8001A3FD4 /* ViewController.swift */,
-				DC44AC78264B0AD8001A3FD4 /* Main.storyboard */,
 				DC44AC7E264B0ADB001A3FD4 /* Assets.xcassets */,
 				DC44AC80264B0ADB001A3FD4 /* LaunchScreen.storyboard */,
 				DC44AC83264B0ADB001A3FD4 /* Info.plist */,
 				DC44AC7B264B0AD8001A3FD4 /* Spending_Management_Tool.xcdatamodeld */,
 			);
 			path = "Spending Management Tool";
+			sourceTree = "<group>";
+		};
+		DC44AC8B264B0D01001A3FD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC44AC8D264B0D11001A3FD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC44ACA9264CDAC8001A3FD4 /* CustomTableViewCell.swift */,
+				DC44ACAA264CDAC8001A3FD4 /* CustomTableViewCell.xib */,
+				DC44AC78264B0AD8001A3FD4 /* Main.storyboard */,
+				DC44ACB6264F2104001A3FD4 /* ExpenseTableViewCell.swift */,
+				DC44ACB7264F2104001A3FD4 /* ExpenseTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC44AC8E264B0D1D001A3FD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC44AC92264C2CA5001A3FD4 /* AddCategoryViewController.swift */,
+				DC44AC96264CC075001A3FD4 /* CategoryListViewController.swift */,
+				DC44AC9A264CC08C001A3FD4 /* CategoryDetailsViewController.swift */,
+				DC44ACB0264DC417001A3FD4 /* AddExpenseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC44AC9D264CC959001A3FD4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DC44AC9E264CC96D001A3FD4 /* enums.swift */,
+				DC44ACB3264F0A6D001A3FD4 /* PieChart.swift */,
+				DC76B5E6265479C20070B8BF /* ProgressBar.swift */,
+				DC76B5E926554A6B0070B8BF /* TableView.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +194,9 @@
 			files = (
 				DC44AC82264B0ADB001A3FD4 /* LaunchScreen.storyboard in Resources */,
 				DC44AC7F264B0ADB001A3FD4 /* Assets.xcassets in Resources */,
+				DC44ACAC264CDAC8001A3FD4 /* CustomTableViewCell.xib in Resources */,
 				DC44AC7A264B0AD8001A3FD4 /* Main.storyboard in Resources */,
+				DC44ACB9264F2104001A3FD4 /* ExpenseTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +207,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC44AC77264B0AD8001A3FD4 /* ViewController.swift in Sources */,
+				DC44AC9F264CC96D001A3FD4 /* enums.swift in Sources */,
+				DC44AC97264CC075001A3FD4 /* CategoryListViewController.swift in Sources */,
+				DC44ACAB264CDAC8001A3FD4 /* CustomTableViewCell.swift in Sources */,
+				DC44AC9B264CC08C001A3FD4 /* CategoryDetailsViewController.swift in Sources */,
+				DC44ACB1264DC417001A3FD4 /* AddExpenseViewController.swift in Sources */,
+				DC44AC93264C2CA5001A3FD4 /* AddCategoryViewController.swift in Sources */,
 				DC44AC73264B0AD8001A3FD4 /* AppDelegate.swift in Sources */,
 				DC44AC7D264B0AD8001A3FD4 /* Spending_Management_Tool.xcdatamodeld in Sources */,
+				DC76B5EA26554A6B0070B8BF /* TableView.swift in Sources */,
+				DC44ACB8264F2104001A3FD4 /* ExpenseTableViewCell.swift in Sources */,
 				DC44AC75264B0AD8001A3FD4 /* SceneDelegate.swift in Sources */,
+				DC76B5E7265479C20070B8BF /* ProgressBar.swift in Sources */,
+				DC44ACB4264F0A6D001A3FD4 /* PieChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.malshan.Spending-Management-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -319,7 +395,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.malshan.Spending-Management-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
